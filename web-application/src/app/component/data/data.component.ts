@@ -31,8 +31,8 @@ export class DataComponent implements OnInit {
         this.response = data;
       },
       error => {
-        this.error =  service + ' is not up. ' +
-          'Please try after sometime. <br/>' + error.message;
+        this.error =  service + ' Henüz Ayağa Kalmadı ' +
+          'Lütfen daha sonra tekrar deneyin. <br/>' + error.message;
       }
     );
   }
